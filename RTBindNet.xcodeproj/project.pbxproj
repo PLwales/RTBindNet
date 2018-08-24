@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C83CB29E824B197C699B4C /* libPods-RTBindNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 514AFE46EC552E9FD7FC3319 /* libPods-RTBindNet.a */; };
 		88633EAA212CFEA900CB4036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EA9212CFEA900CB4036 /* AppDelegate.m */; };
 		88633EAD212CFEA900CB4036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EAC212CFEA900CB4036 /* ViewController.m */; };
 		88633EB0212CFEA900CB4036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88633EAE212CFEA900CB4036 /* Main.storyboard */; };
@@ -15,6 +16,50 @@
 		88633EB8212CFEB200CB4036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EB7212CFEB200CB4036 /* main.m */; };
 		88633EC2212CFEB200CB4036 /* RTBindNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EC1212CFEB200CB4036 /* RTBindNetTests.m */; };
 		88633ECD212CFEB200CB4036 /* RTBindNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633ECC212CFEB200CB4036 /* RTBindNetUITests.m */; };
+		88633EF1212D098700CB4036 /* RTAddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EE5212D098600CB4036 /* RTAddDeviceViewController.m */; };
+		88633EFD212D0A0000CB4036 /* RTSoundSetupNetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EF6212D09FF00CB4036 /* RTSoundSetupNetController.m */; };
+		88633EFE212D0A0000CB4036 /* RTSoundBindResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EF8212D0A0000CB4036 /* RTSoundBindResultViewController.m */; };
+		88633EFF212D0A0000CB4036 /* RTSoundSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EF9212D0A0000CB4036 /* RTSoundSendController.m */; };
+		88633F00212D0A0000CB4036 /* RTSoundReadyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633EFA212D0A0000CB4036 /* RTSoundReadyController.m */; };
+		88633F08212D0A4000CB4036 /* RTReadyAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F04212D0A3F00CB4036 /* RTReadyAPViewController.m */; };
+		88633F09212D0A4000CB4036 /* RTSetupAPNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F06212D0A3F00CB4036 /* RTSetupAPNetViewController.m */; };
+		88633F0A212D0A4000CB4036 /* RTBindingAPDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F07212D0A4000CB4036 /* RTBindingAPDeviceViewController.m */; };
+		88633F12212D0A8800CB4036 /* RTOpmodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F0F212D0A8800CB4036 /* RTOpmodeObject.m */; };
+		88633F13212D0A8800CB4036 /* RTBLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F10212D0A8800CB4036 /* RTBLEDevice.m */; };
+		88633F14212D0A8800CB4036 /* RTBLEdataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F11212D0A8800CB4036 /* RTBLEdataFunc.m */; };
+		88633F19212D0AB900CB4036 /* RTAddDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F16212D0AB900CB4036 /* RTAddDeviceCell.m */; };
+		88633F1B212D0AC200CB4036 /* RTAddDeviceTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F1A212D0AC100CB4036 /* RTAddDeviceTableCell.m */; };
+		88633F2B212D12F200CB4036 /* RTConnectReadyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F20212D12F000CB4036 /* RTConnectReadyController.m */; };
+		88633F2C212D12F200CB4036 /* RBSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F21212D12F100CB4036 /* RBSocketManager.m */; };
+		88633F2D212D12F200CB4036 /* RTSelectNetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F22212D12F100CB4036 /* RTSelectNetController.m */; };
+		88633F2E212D12F200CB4036 /* RTBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F24212D12F100CB4036 /* RTBluetoothManager.m */; };
+		88633F2F212D12F200CB4036 /* RTSearchDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F28212D12F200CB4036 /* RTSearchDeviceController.m */; };
+		88633F30212D12F200CB4036 /* RTBingsResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88633F2A212D12F200CB4036 /* RTBingsResultController.m */; };
+		88633F39212D145A00CB4036 /* libblufiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88633F38212D145A00CB4036 /* libblufiSDK.a */; };
+		88D8A085212D364600200BDC /* UIDevice+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8A083212D364600200BDC /* UIDevice+RBExtension.m */; };
+		88D8A088212D37FF00200BDC /* UIImage+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8A087212D37FF00200BDC /* UIImage+RBExtension.m */; };
+		88D8A08B212D398D00200BDC /* NSString+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8A08A212D398D00200BDC /* NSString+RBExtension.m */; };
+		88D8A08D212D43AA00200BDC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D8A08C212D43AA00200BDC /* VideoToolbox.framework */; };
+		88D8A0A2212D66EA00200BDC /* shengbo_002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A08E212D66E500200BDC /* shengbo_002@2x.png */; };
+		88D8A0A3212D66EA00200BDC /* shengbo_007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A08F212D66E500200BDC /* shengbo_007@2x.png */; };
+		88D8A0A4212D66EA00200BDC /* shengbo_015@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A090212D66E500200BDC /* shengbo_015@2x.png */; };
+		88D8A0A5212D66EA00200BDC /* shengbo_004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A091212D66E600200BDC /* shengbo_004@2x.png */; };
+		88D8A0A6212D66EA00200BDC /* shengbo_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A092212D66E600200BDC /* shengbo_003@2x.png */; };
+		88D8A0A7212D66EA00200BDC /* icon_detected_copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A093212D66E600200BDC /* icon_detected_copy@2x.png */; };
+		88D8A0A8212D66EA00200BDC /* shengbo_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A094212D66E600200BDC /* shengbo_001@2x.png */; };
+		88D8A0A9212D66EA00200BDC /* shengbo_005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A095212D66E700200BDC /* shengbo_005@2x.png */; };
+		88D8A0AA212D66EA00200BDC /* shengbo_014@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A096212D66E700200BDC /* shengbo_014@2x.png */; };
+		88D8A0AB212D66EA00200BDC /* shengbo_000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A097212D66E700200BDC /* shengbo_000@2x.png */; };
+		88D8A0AC212D66EA00200BDC /* shengbo_006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A098212D66E700200BDC /* shengbo_006@2x.png */; };
+		88D8A0AD212D66EA00200BDC /* icon_sound_send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A099212D66E800200BDC /* icon_sound_send@2x.png */; };
+		88D8A0AE212D66EA00200BDC /* shengbo_011@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09A212D66E800200BDC /* shengbo_011@2x.png */; };
+		88D8A0AF212D66EA00200BDC /* icon_wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09B212D66E800200BDC /* icon_wifi@2x.png */; };
+		88D8A0B0212D66EA00200BDC /* icon_sound_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09C212D66E800200BDC /* icon_sound_icon@2x.png */; };
+		88D8A0B1212D66EA00200BDC /* shengbo_008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09D212D66E800200BDC /* shengbo_008@2x.png */; };
+		88D8A0B2212D66EA00200BDC /* shengbo_009@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09E212D66E900200BDC /* shengbo_009@2x.png */; };
+		88D8A0B3212D66EA00200BDC /* shengbo_012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A09F212D66E900200BDC /* shengbo_012@2x.png */; };
+		88D8A0B4212D66EA00200BDC /* shengbo_010@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A0A0212D66E900200BDC /* shengbo_010@2x.png */; };
+		88D8A0B5212D66EA00200BDC /* shengbo_013@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8A0A1212D66E900200BDC /* shengbo_013@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +80,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9CD3CF6A4BB85D0FC8A737 /* libPods-RTBindNetUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBindNetUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C21125B366937990CE7DC5 /* Pods-RTBindNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTBindNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTBindNet/Pods-RTBindNet.release.xcconfig"; sourceTree = "<group>"; };
+		514AFE46EC552E9FD7FC3319 /* libPods-RTBindNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBindNet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633EA5212CFEA900CB4036 /* RTBindNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTBindNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633EA8212CFEA900CB4036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88633EA9212CFEA900CB4036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +99,80 @@
 		88633EC8212CFEB200CB4036 /* RTBindNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTBindNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633ECC212CFEB200CB4036 /* RTBindNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTBindNetUITests.m; sourceTree = "<group>"; };
 		88633ECE212CFEB200CB4036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88633EDA212D098500CB4036 /* RTAddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAddDeviceViewController.h; sourceTree = "<group>"; };
+		88633EE5212D098600CB4036 /* RTAddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAddDeviceViewController.m; sourceTree = "<group>"; };
+		88633EF5212D09FF00CB4036 /* RTSoundSendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSoundSendController.h; sourceTree = "<group>"; };
+		88633EF6212D09FF00CB4036 /* RTSoundSetupNetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSoundSetupNetController.m; sourceTree = "<group>"; };
+		88633EF7212D0A0000CB4036 /* RTSoundSetupNetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSoundSetupNetController.h; sourceTree = "<group>"; };
+		88633EF8212D0A0000CB4036 /* RTSoundBindResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSoundBindResultViewController.m; sourceTree = "<group>"; };
+		88633EF9212D0A0000CB4036 /* RTSoundSendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSoundSendController.m; sourceTree = "<group>"; };
+		88633EFA212D0A0000CB4036 /* RTSoundReadyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSoundReadyController.m; sourceTree = "<group>"; };
+		88633EFB212D0A0000CB4036 /* RTSoundBindResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSoundBindResultViewController.h; sourceTree = "<group>"; };
+		88633EFC212D0A0000CB4036 /* RTSoundReadyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSoundReadyController.h; sourceTree = "<group>"; };
+		88633F02212D0A3F00CB4036 /* RTBindingAPDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBindingAPDeviceViewController.h; sourceTree = "<group>"; };
+		88633F03212D0A3F00CB4036 /* RTReadyAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReadyAPViewController.h; sourceTree = "<group>"; };
+		88633F04212D0A3F00CB4036 /* RTReadyAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReadyAPViewController.m; sourceTree = "<group>"; };
+		88633F05212D0A3F00CB4036 /* RTSetupAPNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSetupAPNetViewController.h; sourceTree = "<group>"; };
+		88633F06212D0A3F00CB4036 /* RTSetupAPNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSetupAPNetViewController.m; sourceTree = "<group>"; };
+		88633F07212D0A4000CB4036 /* RTBindingAPDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBindingAPDeviceViewController.m; sourceTree = "<group>"; };
+		88633F0C212D0A8700CB4036 /* RTBLEdataFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBLEdataFunc.h; sourceTree = "<group>"; };
+		88633F0D212D0A8800CB4036 /* RTOpmodeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTOpmodeObject.h; sourceTree = "<group>"; };
+		88633F0E212D0A8800CB4036 /* RTBLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBLEDevice.h; sourceTree = "<group>"; };
+		88633F0F212D0A8800CB4036 /* RTOpmodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTOpmodeObject.m; sourceTree = "<group>"; };
+		88633F10212D0A8800CB4036 /* RTBLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBLEDevice.m; sourceTree = "<group>"; };
+		88633F11212D0A8800CB4036 /* RTBLEdataFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBLEdataFunc.m; sourceTree = "<group>"; };
+		88633F16212D0AB900CB4036 /* RTAddDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAddDeviceCell.m; sourceTree = "<group>"; };
+		88633F17212D0AB900CB4036 /* RTAddDeviceTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAddDeviceTableCell.h; sourceTree = "<group>"; };
+		88633F18212D0AB900CB4036 /* RTAddDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAddDeviceCell.h; sourceTree = "<group>"; };
+		88633F1A212D0AC100CB4036 /* RTAddDeviceTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAddDeviceTableCell.m; sourceTree = "<group>"; };
+		88633F1F212D12F000CB4036 /* RTSelectNetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSelectNetController.h; sourceTree = "<group>"; };
+		88633F20212D12F000CB4036 /* RTConnectReadyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTConnectReadyController.m; sourceTree = "<group>"; };
+		88633F21212D12F100CB4036 /* RBSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSocketManager.m; sourceTree = "<group>"; };
+		88633F22212D12F100CB4036 /* RTSelectNetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSelectNetController.m; sourceTree = "<group>"; };
+		88633F23212D12F100CB4036 /* RTBingsResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBingsResultController.h; sourceTree = "<group>"; };
+		88633F24212D12F100CB4036 /* RTBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBluetoothManager.m; sourceTree = "<group>"; };
+		88633F25212D12F100CB4036 /* RBSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSocketManager.h; sourceTree = "<group>"; };
+		88633F26212D12F100CB4036 /* RTBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBluetoothManager.h; sourceTree = "<group>"; };
+		88633F27212D12F100CB4036 /* RTSearchDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSearchDeviceController.h; sourceTree = "<group>"; };
+		88633F28212D12F200CB4036 /* RTSearchDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSearchDeviceController.m; sourceTree = "<group>"; };
+		88633F29212D12F200CB4036 /* RTConnectReadyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTConnectReadyController.h; sourceTree = "<group>"; };
+		88633F2A212D12F200CB4036 /* RTBingsResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBingsResultController.m; sourceTree = "<group>"; };
+		88633F33212D144D00CB4036 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		88633F34212D144D00CB4036 /* dh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		88633F35212D144D00CB4036 /* DH_AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DH_AES.h; sourceTree = "<group>"; };
+		88633F36212D144D00CB4036 /* PacketCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCommand.h; sourceTree = "<group>"; };
+		88633F37212D145200CB4036 /* RSAObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAObject.h; sourceTree = "<group>"; };
+		88633F38212D145A00CB4036 /* libblufiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libblufiSDK.a; sourceTree = "<group>"; };
+		88633F3E212D14D000CB4036 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		88D8A083212D364600200BDC /* UIDevice+RBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+RBExtension.m"; path = "../view/UIDevice+RBExtension.m"; sourceTree = "<group>"; };
+		88D8A084212D364600200BDC /* UIDevice+RBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RBExtension.h"; path = "../view/UIDevice+RBExtension.h"; sourceTree = "<group>"; };
+		88D8A086212D37FF00200BDC /* UIImage+RBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RBExtension.h"; sourceTree = "<group>"; };
+		88D8A087212D37FF00200BDC /* UIImage+RBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RBExtension.m"; sourceTree = "<group>"; };
+		88D8A089212D398D00200BDC /* NSString+RBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RBExtension.h"; sourceTree = "<group>"; };
+		88D8A08A212D398D00200BDC /* NSString+RBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RBExtension.m"; sourceTree = "<group>"; };
+		88D8A08C212D43AA00200BDC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		88D8A08E212D66E500200BDC /* shengbo_002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_002@2x.png"; sourceTree = "<group>"; };
+		88D8A08F212D66E500200BDC /* shengbo_007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_007@2x.png"; sourceTree = "<group>"; };
+		88D8A090212D66E500200BDC /* shengbo_015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_015@2x.png"; sourceTree = "<group>"; };
+		88D8A091212D66E600200BDC /* shengbo_004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_004@2x.png"; sourceTree = "<group>"; };
+		88D8A092212D66E600200BDC /* shengbo_003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_003@2x.png"; sourceTree = "<group>"; };
+		88D8A093212D66E600200BDC /* icon_detected_copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_detected_copy@2x.png"; sourceTree = "<group>"; };
+		88D8A094212D66E600200BDC /* shengbo_001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_001@2x.png"; sourceTree = "<group>"; };
+		88D8A095212D66E700200BDC /* shengbo_005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_005@2x.png"; sourceTree = "<group>"; };
+		88D8A096212D66E700200BDC /* shengbo_014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_014@2x.png"; sourceTree = "<group>"; };
+		88D8A097212D66E700200BDC /* shengbo_000@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_000@2x.png"; sourceTree = "<group>"; };
+		88D8A098212D66E700200BDC /* shengbo_006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_006@2x.png"; sourceTree = "<group>"; };
+		88D8A099212D66E800200BDC /* icon_sound_send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sound_send@2x.png"; sourceTree = "<group>"; };
+		88D8A09A212D66E800200BDC /* shengbo_011@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_011@2x.png"; sourceTree = "<group>"; };
+		88D8A09B212D66E800200BDC /* icon_wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_wifi@2x.png"; sourceTree = "<group>"; };
+		88D8A09C212D66E800200BDC /* icon_sound_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sound_icon@2x.png"; sourceTree = "<group>"; };
+		88D8A09D212D66E800200BDC /* shengbo_008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_008@2x.png"; sourceTree = "<group>"; };
+		88D8A09E212D66E900200BDC /* shengbo_009@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_009@2x.png"; sourceTree = "<group>"; };
+		88D8A09F212D66E900200BDC /* shengbo_012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_012@2x.png"; sourceTree = "<group>"; };
+		88D8A0A0212D66E900200BDC /* shengbo_010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_010@2x.png"; sourceTree = "<group>"; };
+		88D8A0A1212D66E900200BDC /* shengbo_013@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shengbo_013@2x.png"; sourceTree = "<group>"; };
+		BEFB7214C844FAC5807B217E /* Pods-RTBindNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTBindNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTBindNet/Pods-RTBindNet.debug.xcconfig"; sourceTree = "<group>"; };
+		EC058968B48A201340A98498 /* libPods-RTBindNetTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBindNetTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +180,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8A08D212D43AA00200BDC /* VideoToolbox.framework in Frameworks */,
+				41C83CB29E824B197C699B4C /* libPods-RTBindNet.a in Frameworks */,
+				88633F39212D145A00CB4036 /* libblufiSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +210,8 @@
 				88633EC0212CFEB200CB4036 /* RTBindNetTests */,
 				88633ECB212CFEB200CB4036 /* RTBindNetUITests */,
 				88633EA6212CFEA900CB4036 /* Products */,
+				C4BCD9A64A896D908A887DED /* Pods */,
+				94A8B635ABDE175305E36DF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +228,9 @@
 		88633EA7212CFEA900CB4036 /* RTBindNet */ = {
 			isa = PBXGroup;
 			children = (
+				88D8A0B6212D66F100200BDC /* images */,
+				88633F3D212D149600CB4036 /* lib */,
+				88633EF4212D099500CB4036 /* bindings */,
 				88633EA8212CFEA900CB4036 /* AppDelegate.h */,
 				88633EA9212CFEA900CB4036 /* AppDelegate.m */,
 				88633EAB212CFEA900CB4036 /* ViewController.h */,
@@ -110,6 +240,7 @@
 				88633EB3212CFEB200CB4036 /* LaunchScreen.storyboard */,
 				88633EB6212CFEB200CB4036 /* Info.plist */,
 				88633EB7212CFEB200CB4036 /* main.m */,
+				88633F3E212D14D000CB4036 /* PrefixHeader.pch */,
 			);
 			path = RTBindNet;
 			sourceTree = "<group>";
@@ -132,6 +263,173 @@
 			path = RTBindNetUITests;
 			sourceTree = "<group>";
 		};
+		88633EF4212D099500CB4036 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				88633F1C212D0AC700CB4036 /* view */,
+				88633F15212D0A8D00CB4036 /* model */,
+				88633F0B212D0A4300CB4036 /* APbind */,
+				88633F01212D0A0800CB4036 /* soundBind */,
+				88633EDA212D098500CB4036 /* RTAddDeviceViewController.h */,
+				88633EE5212D098600CB4036 /* RTAddDeviceViewController.m */,
+				88633F25212D12F100CB4036 /* RBSocketManager.h */,
+				88633F21212D12F100CB4036 /* RBSocketManager.m */,
+				88633F23212D12F100CB4036 /* RTBingsResultController.h */,
+				88633F2A212D12F200CB4036 /* RTBingsResultController.m */,
+				88633F26212D12F100CB4036 /* RTBluetoothManager.h */,
+				88633F24212D12F100CB4036 /* RTBluetoothManager.m */,
+				88633F29212D12F200CB4036 /* RTConnectReadyController.h */,
+				88633F20212D12F000CB4036 /* RTConnectReadyController.m */,
+				88633F27212D12F100CB4036 /* RTSearchDeviceController.h */,
+				88633F28212D12F200CB4036 /* RTSearchDeviceController.m */,
+				88633F1F212D12F000CB4036 /* RTSelectNetController.h */,
+				88633F22212D12F100CB4036 /* RTSelectNetController.m */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		88633F01212D0A0800CB4036 /* soundBind */ = {
+			isa = PBXGroup;
+			children = (
+				88633EFB212D0A0000CB4036 /* RTSoundBindResultViewController.h */,
+				88633EF8212D0A0000CB4036 /* RTSoundBindResultViewController.m */,
+				88633EFC212D0A0000CB4036 /* RTSoundReadyController.h */,
+				88633EFA212D0A0000CB4036 /* RTSoundReadyController.m */,
+				88633EF5212D09FF00CB4036 /* RTSoundSendController.h */,
+				88633EF9212D0A0000CB4036 /* RTSoundSendController.m */,
+				88633EF7212D0A0000CB4036 /* RTSoundSetupNetController.h */,
+				88633EF6212D09FF00CB4036 /* RTSoundSetupNetController.m */,
+			);
+			path = soundBind;
+			sourceTree = "<group>";
+		};
+		88633F0B212D0A4300CB4036 /* APbind */ = {
+			isa = PBXGroup;
+			children = (
+				88633F02212D0A3F00CB4036 /* RTBindingAPDeviceViewController.h */,
+				88633F07212D0A4000CB4036 /* RTBindingAPDeviceViewController.m */,
+				88633F03212D0A3F00CB4036 /* RTReadyAPViewController.h */,
+				88633F04212D0A3F00CB4036 /* RTReadyAPViewController.m */,
+				88633F05212D0A3F00CB4036 /* RTSetupAPNetViewController.h */,
+				88633F06212D0A3F00CB4036 /* RTSetupAPNetViewController.m */,
+			);
+			path = APbind;
+			sourceTree = "<group>";
+		};
+		88633F15212D0A8D00CB4036 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				88D8A084212D364600200BDC /* UIDevice+RBExtension.h */,
+				88D8A083212D364600200BDC /* UIDevice+RBExtension.m */,
+				88D8A086212D37FF00200BDC /* UIImage+RBExtension.h */,
+				88D8A087212D37FF00200BDC /* UIImage+RBExtension.m */,
+				88D8A089212D398D00200BDC /* NSString+RBExtension.h */,
+				88D8A08A212D398D00200BDC /* NSString+RBExtension.m */,
+				88633F0C212D0A8700CB4036 /* RTBLEdataFunc.h */,
+				88633F11212D0A8800CB4036 /* RTBLEdataFunc.m */,
+				88633F0E212D0A8800CB4036 /* RTBLEDevice.h */,
+				88633F10212D0A8800CB4036 /* RTBLEDevice.m */,
+				88633F0D212D0A8800CB4036 /* RTOpmodeObject.h */,
+				88633F0F212D0A8800CB4036 /* RTOpmodeObject.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		88633F1C212D0AC700CB4036 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				88633F18212D0AB900CB4036 /* RTAddDeviceCell.h */,
+				88633F16212D0AB900CB4036 /* RTAddDeviceCell.m */,
+				88633F17212D0AB900CB4036 /* RTAddDeviceTableCell.h */,
+				88633F1A212D0AC100CB4036 /* RTAddDeviceTableCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		88633F3A212D146700CB4036 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				88633F35212D144D00CB4036 /* DH_AES.h */,
+				88633F34212D144D00CB4036 /* dh.h */,
+				88633F36212D144D00CB4036 /* PacketCommand.h */,
+				88633F33212D144D00CB4036 /* Prefix.pch */,
+				88633F37212D145200CB4036 /* RSAObject.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		88633F3B212D147600CB4036 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				88633F3A212D146700CB4036 /* include */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		88633F3C212D148400CB4036 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				88633F3B212D147600CB4036 /* local */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		88633F3D212D149600CB4036 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				88633F38212D145A00CB4036 /* libblufiSDK.a */,
+				88633F3C212D148400CB4036 /* usr */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		88D8A0B6212D66F100200BDC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				88D8A093212D66E600200BDC /* icon_detected_copy@2x.png */,
+				88D8A09C212D66E800200BDC /* icon_sound_icon@2x.png */,
+				88D8A099212D66E800200BDC /* icon_sound_send@2x.png */,
+				88D8A09B212D66E800200BDC /* icon_wifi@2x.png */,
+				88D8A097212D66E700200BDC /* shengbo_000@2x.png */,
+				88D8A094212D66E600200BDC /* shengbo_001@2x.png */,
+				88D8A08E212D66E500200BDC /* shengbo_002@2x.png */,
+				88D8A092212D66E600200BDC /* shengbo_003@2x.png */,
+				88D8A091212D66E600200BDC /* shengbo_004@2x.png */,
+				88D8A095212D66E700200BDC /* shengbo_005@2x.png */,
+				88D8A098212D66E700200BDC /* shengbo_006@2x.png */,
+				88D8A08F212D66E500200BDC /* shengbo_007@2x.png */,
+				88D8A09D212D66E800200BDC /* shengbo_008@2x.png */,
+				88D8A09E212D66E900200BDC /* shengbo_009@2x.png */,
+				88D8A0A0212D66E900200BDC /* shengbo_010@2x.png */,
+				88D8A09A212D66E800200BDC /* shengbo_011@2x.png */,
+				88D8A09F212D66E900200BDC /* shengbo_012@2x.png */,
+				88D8A0A1212D66E900200BDC /* shengbo_013@2x.png */,
+				88D8A096212D66E700200BDC /* shengbo_014@2x.png */,
+				88D8A090212D66E500200BDC /* shengbo_015@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		94A8B635ABDE175305E36DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D8A08C212D43AA00200BDC /* VideoToolbox.framework */,
+				514AFE46EC552E9FD7FC3319 /* libPods-RTBindNet.a */,
+				EC058968B48A201340A98498 /* libPods-RTBindNetTests.a */,
+				0B9CD3CF6A4BB85D0FC8A737 /* libPods-RTBindNetUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4BCD9A64A896D908A887DED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEFB7214C844FAC5807B217E /* Pods-RTBindNet.debug.xcconfig */,
+				41C21125B366937990CE7DC5 /* Pods-RTBindNet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88633ED1212CFEB200CB4036 /* Build configuration list for PBXNativeTarget "RTBindNet" */;
 			buildPhases = (
+				A5753A0540F9DBC7B1A07D5C /* [CP] Check Pods Manifest.lock */,
 				88633EA1212CFEA900CB4036 /* Sources */,
 				88633EA2212CFEA900CB4036 /* Frameworks */,
 				88633EA3212CFEA900CB4036 /* Resources */,
+				5DA8933BEB311B475F5AC6E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +535,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8A0A3212D66EA00200BDC /* shengbo_007@2x.png in Resources */,
+				88D8A0AF212D66EA00200BDC /* icon_wifi@2x.png in Resources */,
 				88633EB5212CFEB200CB4036 /* LaunchScreen.storyboard in Resources */,
+				88D8A0B5212D66EA00200BDC /* shengbo_013@2x.png in Resources */,
+				88D8A0AC212D66EA00200BDC /* shengbo_006@2x.png in Resources */,
 				88633EB2212CFEB200CB4036 /* Assets.xcassets in Resources */,
+				88D8A0B4212D66EA00200BDC /* shengbo_010@2x.png in Resources */,
+				88D8A0A8212D66EA00200BDC /* shengbo_001@2x.png in Resources */,
+				88D8A0A7212D66EA00200BDC /* icon_detected_copy@2x.png in Resources */,
+				88D8A0AE212D66EA00200BDC /* shengbo_011@2x.png in Resources */,
+				88D8A0B0212D66EA00200BDC /* icon_sound_icon@2x.png in Resources */,
+				88D8A0AB212D66EA00200BDC /* shengbo_000@2x.png in Resources */,
+				88D8A0AA212D66EA00200BDC /* shengbo_014@2x.png in Resources */,
+				88D8A0A2212D66EA00200BDC /* shengbo_002@2x.png in Resources */,
+				88D8A0A5212D66EA00200BDC /* shengbo_004@2x.png in Resources */,
+				88D8A0B2212D66EA00200BDC /* shengbo_009@2x.png in Resources */,
+				88D8A0B3212D66EA00200BDC /* shengbo_012@2x.png in Resources */,
+				88D8A0B1212D66EA00200BDC /* shengbo_008@2x.png in Resources */,
+				88D8A0A9212D66EA00200BDC /* shengbo_005@2x.png in Resources */,
+				88D8A0AD212D66EA00200BDC /* icon_sound_send@2x.png in Resources */,
+				88D8A0A4212D66EA00200BDC /* shengbo_015@2x.png in Resources */,
 				88633EB0212CFEA900CB4036 /* Main.storyboard in Resources */,
+				88D8A0A6212D66EA00200BDC /* shengbo_003@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +577,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DA8933BEB311B475F5AC6E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RTBindNet/Pods-RTBindNet-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTBindNet/Pods-RTBindNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5753A0540F9DBC7B1A07D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTBindNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88633EA1212CFEA900CB4036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8A085212D364600200BDC /* UIDevice+RBExtension.m in Sources */,
+				88633F30212D12F200CB4036 /* RTBingsResultController.m in Sources */,
+				88633F2C212D12F200CB4036 /* RBSocketManager.m in Sources */,
+				88633EF1212D098700CB4036 /* RTAddDeviceViewController.m in Sources */,
+				88633F2F212D12F200CB4036 /* RTSearchDeviceController.m in Sources */,
+				88633F12212D0A8800CB4036 /* RTOpmodeObject.m in Sources */,
+				88D8A088212D37FF00200BDC /* UIImage+RBExtension.m in Sources */,
+				88633F2E212D12F200CB4036 /* RTBluetoothManager.m in Sources */,
+				88633F08212D0A4000CB4036 /* RTReadyAPViewController.m in Sources */,
+				88633F2B212D12F200CB4036 /* RTConnectReadyController.m in Sources */,
+				88D8A08B212D398D00200BDC /* NSString+RBExtension.m in Sources */,
+				88633F09212D0A4000CB4036 /* RTSetupAPNetViewController.m in Sources */,
+				88633F0A212D0A4000CB4036 /* RTBindingAPDeviceViewController.m in Sources */,
+				88633F1B212D0AC200CB4036 /* RTAddDeviceTableCell.m in Sources */,
+				88633EFD212D0A0000CB4036 /* RTSoundSetupNetController.m in Sources */,
+				88633EFF212D0A0000CB4036 /* RTSoundSendController.m in Sources */,
+				88633EFE212D0A0000CB4036 /* RTSoundBindResultViewController.m in Sources */,
 				88633EAD212CFEA900CB4036 /* ViewController.m in Sources */,
+				88633F00212D0A0000CB4036 /* RTSoundReadyController.m in Sources */,
+				88633F13212D0A8800CB4036 /* RTBLEDevice.m in Sources */,
+				88633F19212D0AB900CB4036 /* RTAddDeviceCell.m in Sources */,
+				88633F14212D0A8800CB4036 /* RTBLEdataFunc.m in Sources */,
+				88633F2D212D12F200CB4036 /* RTSelectNetController.m in Sources */,
 				88633EB8212CFEB200CB4036 /* main.m in Sources */,
 				88633EAA212CFEA900CB4036 /* AppDelegate.m in Sources */,
 			);
@@ -431,34 +814,55 @@
 		};
 		88633ED2212CFEB200CB4036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFB7214C844FAC5807B217E /* Pods-RTBindNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/roobo/Documents/SDKDEMO/RTBindNet/RTBindNet/PrefixHeader.pch;
 				INFOPLIST_FILE = RTBindNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RTBindNet;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTBindNet",
+					"$(PROJECT_DIR)/RTBindNet/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.RTBindNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b745820-ee07-48f8-bfe5-fd32f23776d0";
+				PROVISIONING_PROFILE_SPECIFIER = item_provisioning;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		88633ED3212CFEB200CB4036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C21125B366937990CE7DC5 /* Pods-RTBindNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/roobo/Documents/SDKDEMO/RTBindNet/RTBindNet/PrefixHeader.pch;
 				INFOPLIST_FILE = RTBindNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RTBindNet;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTBindNet",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.RTBindNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b745820-ee07-48f8-bfe5-fd32f23776d0";
+				PROVISIONING_PROFILE_SPECIFIER = item_provisioning;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
