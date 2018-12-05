@@ -1,0 +1,45 @@
+PODS:
+  - BabyBluetooth (0.7.0)
+  - CocoaAsyncSocket (7.6.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - OpenSSL (1.0.210)
+  - RBToyAPI (1.4.5)
+  - ReactiveObjC (3.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - BabyBluetooth
+  - CocoaAsyncSocket
+  - Masonry
+  - MJRefresh
+  - OpenSSL
+  - RBToyAPI
+  - ReactiveObjC
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://git.oschina.net/roobospecs/roobospecs.git:
+    - RBToyAPI
+  https://github.com/cocoapods/specs.git:
+    - BabyBluetooth
+    - CocoaAsyncSocket
+    - Masonry
+    - MJRefresh
+    - OpenSSL
+    - ReactiveObjC
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  RBToyAPI: ac1e83f9cfe92eb648d1b5c87b0b48ffed0e7998
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 5252679770e5444f085a0c7188b04631e8fa78d1
+
+COCOAPODS: 1.5.3

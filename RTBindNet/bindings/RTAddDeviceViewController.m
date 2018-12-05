@@ -56,7 +56,10 @@ typedef NS_ENUM(NSUInteger,RTPrivacyPermissionStatus) {
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSLog(@"add device view");
+    [RBDeviceApi getDeviceList:YES block:^(NSArray<RBDeviceModel *> * _Nonnull device, NSError * _Nonnull error) {
+        NSLog(@"获取当前用户的所有设备 =  %@:%@",device,error);
+    }];
+    
 }
 
 -(void) addDebugButton{

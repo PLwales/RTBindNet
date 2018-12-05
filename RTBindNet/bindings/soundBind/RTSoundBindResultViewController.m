@@ -213,7 +213,7 @@ NSString * convertString(NSString *string) {
     self.reconfigureButton.hidden = YES;
     
     [_imageView stopAnimating];
-    _imageView.image = [self.connectingArray objectAtIndex:0];
+//    _imageView.image = [self.connectingArray objectAtIndex:0];
     _imageView.animationImages = self.connectingArray;
     [_imageView startAnimating];
     

@@ -17,7 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [RBAccessConfig saveDevelopEnv:RBDevelopEnv_Relese];
+    [RBAccessConfig saveAppID:@"mU1MjExYmU3YTFkZ"];
+    [RBAccessConfig saveUserID:@"xh:994508d6179536f1ec605d9edea5e22b"];
+    [RBAccessConfig saveAccessToken:@"3e647c6172f81784c8e415eccc4fce63"];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES] ;
     self.window.backgroundColor = [UIColor whiteColor];

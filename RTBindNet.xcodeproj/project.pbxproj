@@ -81,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		0B9CD3CF6A4BB85D0FC8A737 /* libPods-RTBindNetUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBindNetUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C694621902E5900C5B583 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		41C21125B366937990CE7DC5 /* Pods-RTBindNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTBindNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTBindNet/Pods-RTBindNet.release.xcconfig"; sourceTree = "<group>"; };
 		514AFE46EC552E9FD7FC3319 /* libPods-RTBindNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBindNet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88633EA5212CFEA900CB4036 /* RTBindNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTBindNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +144,6 @@
 		88633F36212D144D00CB4036 /* PacketCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketCommand.h; sourceTree = "<group>"; };
 		88633F37212D145200CB4036 /* RSAObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAObject.h; sourceTree = "<group>"; };
 		88633F38212D145A00CB4036 /* libblufiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libblufiSDK.a; sourceTree = "<group>"; };
-		88633F3E212D14D000CB4036 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88D8A083212D364600200BDC /* UIDevice+RBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+RBExtension.m"; path = "../view/UIDevice+RBExtension.m"; sourceTree = "<group>"; };
 		88D8A084212D364600200BDC /* UIDevice+RBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RBExtension.h"; path = "../view/UIDevice+RBExtension.h"; sourceTree = "<group>"; };
 		88D8A086212D37FF00200BDC /* UIImage+RBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RBExtension.h"; sourceTree = "<group>"; };
@@ -235,12 +235,12 @@
 				88633EA9212CFEA900CB4036 /* AppDelegate.m */,
 				88633EAB212CFEA900CB4036 /* ViewController.h */,
 				88633EAC212CFEA900CB4036 /* ViewController.m */,
+				394C694621902E5900C5B583 /* PrefixHeader.pch */,
 				88633EAE212CFEA900CB4036 /* Main.storyboard */,
 				88633EB1212CFEB200CB4036 /* Assets.xcassets */,
 				88633EB3212CFEB200CB4036 /* LaunchScreen.storyboard */,
 				88633EB6212CFEB200CB4036 /* Info.plist */,
 				88633EB7212CFEB200CB4036 /* main.m */,
-				88633F3E212D14D000CB4036 /* PrefixHeader.pch */,
 			);
 			path = RTBindNet;
 			sourceTree = "<group>";
@@ -743,6 +743,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -753,7 +755,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -799,13 +801,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -817,11 +821,12 @@
 			baseConfigurationReference = BEFB7214C844FAC5807B217E /* Pods-RTBindNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3W4RGDZH2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/roobo/Documents/SDKDEMO/RTBindNet/RTBindNet/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RTBindNet/PrefixHeader.pch";
 				INFOPLIST_FILE = RTBindNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -834,8 +839,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.RTBindNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7b745820-ee07-48f8-bfe5-fd32f23776d0";
-				PROVISIONING_PROFILE_SPECIFIER = item_provisioning;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -845,11 +850,12 @@
 			baseConfigurationReference = 41C21125B366937990CE7DC5 /* Pods-RTBindNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3W4RGDZH2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/roobo/Documents/SDKDEMO/RTBindNet/RTBindNet/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RTBindNet/PrefixHeader.pch";
 				INFOPLIST_FILE = RTBindNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -861,8 +867,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roobo.RTBindNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7b745820-ee07-48f8-bfe5-fd32f23776d0";
-				PROVISIONING_PROFILE_SPECIFIER = item_provisioning;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
